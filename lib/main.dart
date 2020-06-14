@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutterapp/src/pages/detalle_home_page.dart';
 import 'package:flutterapp/src/pages/home_page.dart';
 
 void main() => runApp(MyApp());
@@ -19,11 +20,13 @@ class MyApp extends StatelessWidget {
       initialRoute: 'home',
       routes: {
         'home': (BuildContext context) => HomePage(),
+        'detalleHome': (BuildContext context) => DetalleHomePage(),
       },
       theme: ThemeData(
         // primaryColor: Color.fromRGBO(55, 57, 84, 1.0),
-        primaryColor: Colors.yellow[700],
+        // primaryColor: Colors.yellow[700],
         accentColor: Colors.yellow[700],
+        splashColor: Colors.yellow[700],
         fontFamily: 'Montserrat',
       ),
     );

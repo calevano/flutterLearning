@@ -67,12 +67,22 @@ flutter:
     - family: Montserrat
       fonts:
         - asset: fonts/Montserrat-Regular.ttf
-        - asset: fonts/Montserrat-ExtraLight.ttf
-        - asset: fonts/Montserrat-Light.ttf
-        - asset: fonts/Montserrat-Medium.ttf
+        - asset: fonts/Montserrat-Black.ttf
+          # weigth: 900
+        - asset: fonts/Montserrat-ExtraBold.ttf
+          # weigth: 800
         - asset: fonts/Montserrat-Bold.ttf
+          # weigth: 700
         - asset: fonts/Montserrat-SemiBold.ttf
+          # weigth: 600
+        - asset: fonts/Montserrat-Medium.ttf
+          # weigth: 500
+        - asset: fonts/Montserrat-Light.ttf
+          # weigth: 300
+        - asset: fonts/Montserrat-ExtraLight.ttf
+          # weigth: 200
         - asset: fonts/Montserrat-Thin.ttf
+          # weigth: 100
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
